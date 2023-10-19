@@ -1,4 +1,4 @@
-![top_10_freq_words](https://github.com/obinnameso/twitter-climate-sentiment-classification/assets/127059513/c9b14f6f-f5cd-44d1-9f17-1a8ee7cfc9bb)# Twitter Climate Sentiment Classification
+# Twitter Climate Sentiment Classification
 
 ## Project Description
 
@@ -15,25 +15,19 @@ We investigated various supervised machine learning models, including Logistic R
 This project uses a classification model to determine the sentiment of users' tweets which could either be Pro, Negative, News or Neutral. We also developed a web application using Streamlit for demonstration and easy interaction with our model. 
 The web application was designed in a way that it will be able to take csv files and return the sentiments which would suit a use case for an organization seeking to get the sentiment analysis for a group of tweets.
 
-
-
-
-
-
-
-
-
-
-
+<br>
 
 ## Tools used
 
 * Python
 * Streamlit
-* scikit-learn
 * nltk
 * Comet
 * GitHub
+
+<br>
+
+## Installation
 
 Step 1: Install Python
 Ensure that you have the latest version of Python installed, preferably Python 3.10.11. If you haven't already installed it, you can do so by running the following command:
@@ -50,12 +44,16 @@ Install the project dependencies including pandas, numpy, matplotlib, and scikit
 pip install -U matplotlib numpy pandas scikit-learn
 
 
-Usage
+## Usage
+
 Open your preferred Python environment or notebook.
 Import the necessary libraries.
 Load the data onto the notebook or import the "clean_train_csv" file directly to skip the cleaning process.
 Fit the data into the selected model. The model used for this project is the Support Vector Machine (SVM). You can experiment with different model types and tweak the parameters to suit your requirements.
-Project Structure
+
+
+## Project Structure
+
 The project repository consists of the following folders/files:
 
 train.csv: Contains raw tweets and sentiments used for training the model.
