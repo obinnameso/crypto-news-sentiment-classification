@@ -21,8 +21,7 @@ The web application was designed in a way that it will be able to take csv files
 * Sklearn
 * Comet
 * GitHub
-<br>
-
+<br>  
 ## Installation
 
 1. pip install ipython (preferably Python 3.10.11)
@@ -38,13 +37,13 @@ pip install -U matplotlib numpy pandas scikit-learn <br>
 Having done a thorough EDA on the dataset, we visualized the amount of data we had on the given sentiments as shown in the chart below: <br> 
 
 <p align="center">
-<img align = "center" width="800" height="500" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/sentiment_dist_pie_chart.png?raw=true">
+<img align = "center" width="700" height="400" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/sentiment_dist_pie_chart.png?raw=true">
 </p> <br> 
 
 We also found the highest occuring words in the dataset as shown in the graph below: <br> 
 
 <p align="center">
-<img align = "center" width="800" height="600" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/copy_highest_occuring_words.png?raw=true">
+<img align = "center" width="700" height="400" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/copy_highest_occuring_words.png?raw=true">
 </p> 
 <br> 
 
@@ -70,7 +69,6 @@ I would like to also ackowledge my dynamic team of data and innovation enthusias
 * Greensmill Akpa
 * Obot Joshua
 <br> 
-
 ### Note:
 * Due to the nature of this project, code cannot be shared publicly.
 * Twitter as at the time of writing is known as X.
