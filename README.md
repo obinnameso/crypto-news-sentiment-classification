@@ -11,4 +11,5 @@ We investigated various supervised machine learning models, including Logistic R
 <br>
 
 ## Feature
+
 This project uses a classification model to determine the sentiment of users tweets. 
