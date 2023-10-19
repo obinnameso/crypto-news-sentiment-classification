@@ -45,7 +45,7 @@ Having done a thorough EDA on the dataset, we visualized the amount of data we h
 <p align="center">
 <img align = "center" width="600" height="400" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/sentiment_dist_pie_chart.png?raw=true">
 </p> <br> 
-We also found the highest occuring words in the dataset as shown in the graph below: 
+We also found the highest occuring words in the dataset as shown in the graph below: <br> 
 
 <p align="center">
 <img align = "center" width="800" height="600" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/general_word_cloud.png?raw=true">
