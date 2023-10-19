@@ -22,6 +22,7 @@ The web application was designed in a way that it will be able to take csv files
 * Python
 * Streamlit
 * nltk
+* Sklearn
 * Comet
 * GitHub
 
@@ -29,34 +30,45 @@ The web application was designed in a way that it will be able to take csv files
 
 ## Installation
 
-Step 1: Install Python
-Ensure that you have the latest version of Python installed, preferably Python 3.10.11. If you haven't already installed it, you can do so by running the following command:
-
-pip install ipython
-Step 2: Download Necessary Corpora and Model
+1. pip install ipython (preferably Python 3.10.11)
+2. Download Necessary Corpora and Model <br> 
 You need to download the required corpora and model to aid with stopword removal and tokenization. Open a Python environment and execute the following commands:
 
 import nltk
+
 nltk.download(['punkt', 'stopwords'])
-Step 3: Install Dependencies
-Install the project dependencies including pandas, numpy, matplotlib, and scikit-learn using the following command:
+
+3. Install the project dependencies including pandas, numpy, matplotlib, and scikit-learn using the following command:
 
 pip install -U matplotlib numpy pandas scikit-learn
 
-
-## Usage
-
-Open your preferred Python environment or notebook.
-Import the necessary libraries.
-Load the data onto the notebook or import the "clean_train_csv" file directly to skip the cleaning process.
-Fit the data into the selected model. The model used for this project is the Support Vector Machine (SVM). You can experiment with different model types and tweak the parameters to suit your requirements.
+## Result 
 
 
-## Project Structure
+Using GridSearchCV and Sklearn's pipeline class, we performed hyper parameter tunning on the Support Vector and Random forest classifiers. This allowed us to identify the best parameters for the vectorizer and the classifer as well. With an accuracy score of 0.718, our model performed fairly.
 
-The project repository consists of the following folders/files:
+## Recommendation
 
-train.csv: Contains raw tweets and sentiments used for training the model.
-test_with_no_labels.csv: Contains raw tweets without labels, which can be used as a testing dataset.
-clean_train.csv: Contains the clean training data. You can load this file directly to skip the cleaning process.
-clean_test.csv: Contains the clean test data. You can load this file directly to skip the cleaning process.
+This project has shed light on public perceptions of climate change, providing valuable insights for businesses. By harnessing machine learning techniques, we were able to extract actionable insights that can guide companies' market research and strategic decisions. Here are key takeaways from this endeavor:
+
+* Market Research Insights: This project offers valuable market research insights for businesses. By accurately classifying individuals' beliefs on climate change, companies gain access to a broad spectrum of consumer sentiment. This data can inform their marketing strategies, helping them develop products and services that align with customers' environmental concerns and increase their market share.
+
+* Competitive Advantage: Our project provides a competitive edge for companies in the growing market of environmentally friendly and sustainable products. By leveraging machine learning techniques, we help businesses stay ahead of their competitors by understanding consumer perceptions and preferences in real-time. This enables them to tailor their offerings, attracting a growing segment of environmentally conscious consumers.
+
+* Public Awareness and Concern: Our analysis reveals a significant portion of individuals expressing strong beliefs in climate change and its potential impacts. This heightened awareness underscores the urgency for businesses to incorporate sustainability and environmental consciousness into their offerings.
+
+## Acknowledgement
+I would like to also ackowledge my dynamic team of data and innovation enthusiasts, who worked together to drive positive impact through advanced data analysis and machine learning while working on the project:
+
+* Karabo Lamola
+* Mukhtar Abebefe
+* Sandile Mdluli
+* Chidinma Madukife
+* Greensmill Akpa
+* Obot Joshua
+<br> 
+
+### Note:
+* Due to the nature of this project, code cannot be shared publicly.
+* Twitter as at the time of writing is known as X.
+
