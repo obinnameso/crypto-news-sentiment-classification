@@ -14,7 +14,6 @@ We investigated various supervised machine learning models, including Logistic R
 
 This project uses a classification model to determine the sentiment of users' tweets which could either be Pro, Negative, News or Neutral. We also developed a web application using Streamlit for demonstration and easy interaction with our model. 
 The web application was designed in a way that it will be able to take csv files and return the sentiments which would suit a use case for an organization seeking to get the sentiment analysis for a group of tweets.
-
 <br>
 
 ## Tools used
@@ -25,7 +24,6 @@ The web application was designed in a way that it will be able to take csv files
 * Sklearn
 * Comet
 * GitHub
-
 <br>
 
 ## Installation
@@ -43,7 +41,7 @@ pip install -U matplotlib numpy pandas scikit-learn
 Having done a thorough EDA on the dataset, we visualized the amount of data we had on the given sentiments as shown in the chart below: <br> 
 
 <p align="center">
-<img align = "center" width="600" height="600" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/sentiment_dist_pie_chart.png?raw=true">
+<img align = "center" width="800" height="500" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/sentiment_dist_pie_chart.png?raw=true">
 </p> <br> 
 
 We also found the highest occuring words in the dataset as shown in the graph below: <br> 
