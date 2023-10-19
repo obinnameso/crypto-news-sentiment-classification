@@ -32,14 +32,11 @@ The web application was designed in a way that it will be able to take csv files
 
 1. pip install ipython (preferably Python 3.10.11)
 2. Download Necessary Corpora and Model <br> 
-You need to download the required corpora and model to aid with stopword removal and tokenization. Open a Python environment and execute the following commands:
-
-import nltk
-
+You need to download the required corpora and model to aid with stopword removal and tokenization. Open a Python environment and execute the following commands: <br> 
+import nltk <br> 
 nltk.download(['punkt', 'stopwords'])
 
-3. Install the project dependencies including pandas, numpy, matplotlib, and scikit-learn using the following command:
-
+3. Install the project dependencies including pandas, numpy, matplotlib, and scikit-learn using the following command: <br> 
 pip install -U matplotlib numpy pandas scikit-learn
 
 ## Result 
