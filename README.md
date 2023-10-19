@@ -1,5 +1,4 @@
 # twitter-sentiment-classification
-<br>
 
 ## Project Description
 
