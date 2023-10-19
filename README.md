@@ -43,7 +43,7 @@ pip install -U matplotlib numpy pandas scikit-learn
 Having done a thorough EDA on the dataset, we visualized the amount of data we had on the given sentiments as shown in the chart below: <br> 
 
 <p align="center">
-<img align = "center" width="600" height="400" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/sentiment_dist_pie_chart.png?raw=true">
+<img align = "center" width="600" height="600" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/sentiment_dist_pie_chart.png?raw=true">
 </p> <br> 
 
 We also found the highest occuring words in the dataset as shown in the graph below: <br> 
@@ -52,6 +52,7 @@ We also found the highest occuring words in the dataset as shown in the graph be
 <img align = "center" width="800" height="600" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/copy_highest_occuring_words.png?raw=true">
 </p> 
 <br> 
+
 Using GridSearchCV and Sklearn's pipeline class, we performed hyper parameter tunning on the Support Vector and Random forest classifiers. This allowed us to identify the best parameters for the vectorizer and the classifer as well. With an accuracy score of 0.718, our model performed fairly.
 
 ## Recommendation
