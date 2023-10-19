@@ -1,7 +1,6 @@
 # Twitter Climate Sentiment Classification
 
 ## Project Description
-<br>
 
 In this project, we developed a sentiment analysis tool for climate-related tweets, enabling companies to gauge public perception of climate change by their tweets. By analyzing Twitter discussions, businesses can gain insights into how their products or services might be perceived in the context of climate sentiment.
 
@@ -33,7 +32,7 @@ import nltk <br>
 nltk.download(['punkt', 'stopwords'])
 
 3. Install the project dependencies including pandas, numpy, matplotlib, and scikit-learn using the following command: <br> 
-pip install -U matplotlib numpy pandas scikit-learn
+pip install -U matplotlib numpy pandas scikit-learn <br> 
 
 ## Result 
 Having done a thorough EDA on the dataset, we visualized the amount of data we had on the given sentiments as shown in the chart below: <br> 
@@ -49,7 +48,7 @@ We also found the highest occuring words in the dataset as shown in the graph be
 </p> 
 <br> 
 
-Using GridSearchCV and Sklearn's pipeline class, we performed hyper parameter tunning on the Support Vector and Random forest classifiers. This allowed us to identify the best parameters for the vectorizer and the classifer as well. With an accuracy score of 0.718, our model performed fairly.
+Using GridSearchCV and Sklearn's pipeline class, we performed hyper parameter tunning on the Support Vector and Random forest classifiers. This allowed us to identify the best parameters for the vectorizer and the classifer as well. With an accuracy score of 0.718, our model performed fairly. <br> 
 
 ## Recommendation
 
@@ -59,7 +58,7 @@ This project has shed light on public perceptions of climate change, providing v
 
 * Competitive Advantage: Our project provides a competitive edge for companies in the growing market of environmentally friendly and sustainable products. By leveraging machine learning techniques, we help businesses stay ahead of their competitors by understanding consumer perceptions and preferences in real-time. This enables them to tailor their offerings, attracting a growing segment of environmentally conscious consumers.
 
-* Public Awareness and Concern: Our analysis reveals a significant portion of individuals expressing strong beliefs in climate change and its potential impacts. This heightened awareness underscores the urgency for businesses to incorporate sustainability and environmental consciousness into their offerings.
+* Public Awareness and Concern: Our analysis reveals a significant portion of individuals expressing strong beliefs in climate change and its potential impacts. This heightened awareness underscores the urgency for businesses to incorporate sustainability and environmental consciousness into their offerings. <br> 
 
 ## Acknowledgement
 I would like to also ackowledge my dynamic team of data and innovation enthusiasts, who worked together to drive positive impact through advanced data analysis and machine learning while working on the project:
