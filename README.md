@@ -22,6 +22,7 @@ The web application was designed in a way that it will be able to take csv files
 * Comet
 * GitHub
 
+
 ## Installation
 
 1. pip install ipython (preferably Python 3.10.11)
@@ -68,6 +69,7 @@ I would like to also ackowledge my dynamic team of data and innovation enthusias
 * Chidinma Madukife
 * Greensmill Akpa
 * Obot Joshua
+
 
 ### Note:
 * Due to the nature of this project, code cannot be shared publicly.
