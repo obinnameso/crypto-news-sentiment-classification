@@ -68,7 +68,8 @@ I would like to also ackowledge my dynamic team of data and innovation enthusias
 * Sandile Mdluli
 * Chidinma Madukife
 * Greensmill Akpa
-* Obot Joshua <br> 
+* Obot Joshua
+ 
 
 ### Note:
 * Due to the nature of this project, code cannot be shared publicly.
