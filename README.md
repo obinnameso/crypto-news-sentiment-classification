@@ -38,13 +38,13 @@ pip install -U matplotlib numpy pandas scikit-learn <br>
 Having done a thorough EDA on the dataset, we visualized the amount of data we had on the given sentiments as shown in the chart below: <br> 
 
 <p align="center">
-<img align = "center" width="700" height="400" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/sentiment_dist_pie_chart.png?raw=true">
+<img width="700" height="400" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/sentiment_dist_pie_chart.png?raw=true">
 </p> <br> 
 
 We also found the highest occuring words in the dataset as shown in the graph below: <br> 
 
 <p align="center">
-<img align = "center" width="700" height="400" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/copy_highest_occuring_words.png?raw=true">
+<img width="700" height="400" src="https://github.com/obinnameso/twitter-climate-sentiment-classification/blob/main/images/copy_highest_occuring_words.png?raw=true">
 </p> 
 <br> 
 
