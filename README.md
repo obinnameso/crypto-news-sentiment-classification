@@ -72,6 +72,6 @@ I would like to also ackowledge my dynamic team of data and innovation enthusias
  
 
 ### Note:
-* Due to the nature of this project, code cannot be shared publicly.
+* Code cannot be shared publicly due to the nature of the project.
 * Twitter as at the time of writing is known as X.
 
