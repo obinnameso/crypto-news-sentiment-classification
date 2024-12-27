@@ -1,4 +1,4 @@
-# Twitter Climate Sentiment Classification
+# Crypto News Sentiment Classification
 
 ## Project Description
 
