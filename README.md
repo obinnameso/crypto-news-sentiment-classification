@@ -31,7 +31,7 @@ import nltk <br>
 nltk.download(['punkt', 'stopwords'])
 
 3. Install the project dependencies including pandas, numpy, matplotlib, transformers, torch and scikit-learn using the following command: <br> 
-pip install matplotlib numpy pandas scikit-learn transformers torch accelerate datasets -U
+pip install matplotlib numpy pandas scikit-learn transformers torch accelerate datasets streamlit -U
  <br> 
 
 ## Result 

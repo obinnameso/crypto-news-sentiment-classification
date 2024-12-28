@@ -12,15 +12,7 @@ label_map = {0: "Negative", 1: "Neutral", 2: "Positive"}
 
 # Function to predict sentiment
 def predict_sentiment(text):
-    """
-    Predicts the sentiment of a given text using the fine-tuned DistilBERT model.
-
-    Args:
-        text (str): Input text to analyze.
-
-    Returns:
-        str: Predicted sentiment label.
-    """
+    
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
