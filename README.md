@@ -10,6 +10,7 @@ In this project, we developed a sentiment analysis tool for crypto-related news 
 
 This project uses an LLM to determine the sentiment of news headlines which could either be Positive, Negative or Neutral. I also developed a web application using Streamlit for demonstration and easy interaction with the fine-tuned model. 
 The web application was designed in a way that it will be able to take both single headlines or csv files also and return the sentiments which would suit a use case for an organization seeking to get the sentiment analysis for a group of newws headlines.
+The data used in this project was gotten from Kaggle. https://www.kaggle.com/datasets/kaballa/cryptoner-ml-model?select=articlesData.csv
 <br>
 
 ## Tools used
