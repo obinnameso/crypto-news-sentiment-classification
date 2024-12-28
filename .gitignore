@@ -1,2 +1,4 @@
 data/
 images/
+model_files/
+.crypto-env/
