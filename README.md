@@ -29,7 +29,7 @@ The data used in this project was gotten from Kaggle. https://www.kaggle.com/dat
 2. Download Necessary Corpora and Model <br> 
 You need to download the required corpora and model to aid with stopword removal and tokenization. Open a Python environment and execute the following commands: <br> 
 import nltk <br> 
-nltk.download(['punkt', 'stopwords'])
+nltk.download(['punkt', 'stopwords','wordnet','punkt_tab'])
 
 3. Install the project dependencies including pandas, numpy, matplotlib, transformers, torch and scikit-learn using the following command: <br> 
 pip install matplotlib numpy pandas scikit-learn transformers torch accelerate datasets streamlit -U
