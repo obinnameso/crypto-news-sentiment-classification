@@ -11,7 +11,7 @@ This project focuses on developing a sentiment analysis tool for crypto-related 
 * Sentiment Analysis: Utilizes a Large Language Model (LLM) to classify the sentiment of news headlines.
 * Versatile Input Handling: Supports single news headlines and batch processing via CSV files, catering to both individual users and organizational use cases.
 * Streamlit Web Application: Interactive web interface for demonstrating the model, designed for ease of use and accessibility.
-* Real-world Data: Trained and tested on datasets sourced from Kaggle <a href = 'https://www.kaggle.com/datasets/kaballa/cryptoner-ml-model?select=articlesData.csv'>(link to dataset)<a>. <br>
+* Real-world Data: Trained and tested on datasets sourced from Kaggle <a href = 'https://www.kaggle.com/datasets/kaballa/cryptoner-ml-model?select=articlesData.csv' target = '_blank'>(link to dataset)<a>. <br>
 
 ## Tools used
 
