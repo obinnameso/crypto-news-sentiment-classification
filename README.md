@@ -1,26 +1,26 @@
 # Crypto News Sentiment Classification
 
-## Project Description
+## Project Overview
 
-In this project, we developed a sentiment analysis tool for crypto-related news headlines, enabling users to gauge public perception of crypto news headlines.
+This project focuses on developing a sentiment analysis tool for crypto-related news headlines, providing insights into public perception. Users can determine whether a given headline expresses a Positive, Negative, or Neutral sentiment. A user-friendly web application, built using Streamlit, demonstrates the tool’s capabilities and allows for easy interaction with the fine-tuned model.
 
 <br>
 
-## Feature
+## Key Features
 
-This project uses an LLM to determine the sentiment of news headlines which could either be Positive, Negative or Neutral. I also developed a web application using Streamlit for demonstration and easy interaction with the fine-tuned model. 
-The web application was designed in a way that it will be able to take both single headlines or csv files also and return the sentiments which would suit a use case for an organization seeking to get the sentiment analysis for a group of newws headlines.
-The data used in this project was gotten from Kaggle. https://www.kaggle.com/datasets/kaballa/cryptoner-ml-model?select=articlesData.csv
-<br>
+* Sentiment Analysis: Utilizes a Large Language Model (LLM) to classify the sentiment of news headlines.
+* Versatile Input Handling: Supports single news headlines and batch processing via CSV files, catering to both individual users and organizational use cases.
+* Streamlit Web Application: Interactive web interface for demonstrating the model, designed for ease of use and accessibility.
+* Real-world Data: Trained and tested on datasets sourced from Kaggle <a href = 'https://www.kaggle.com/datasets/kaballa/cryptoner-ml-model?select=articlesData.csv'>(link to dataset)<a>. <br>
 
 ## Tools used
 
 * Python
 * Streamlit
-* Transformers
+* Transformers (for LLM implementation)
 * Torch
-* nltk
-* GitHub
+* nltk (Natural Language Toolkit for preprocessing)
+* GitHub (version control)
 
 
 ## Installation
